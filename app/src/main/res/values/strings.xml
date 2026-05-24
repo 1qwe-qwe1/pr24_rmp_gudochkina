@@ -10,14 +10,14 @@
     <string name="monitoring_info">Наши врачи всегда наблюдают\nза вашими показателями здоровья</string>
     <string name="complete">Завершить</string>
     <string name="hello_message">Добро пожаловать!</string>
-    <string name="hint">Войдите, чтобы пользоваться функциями приложения</string>
+    <string name="hint">Войдите, чтобы пользоваться функциями\nприложения</string>
     <string name="log_in_by_email">Вход по E-mail</string>
     <string name="further">Далее</string>
     <string name="log_in_using">Или войдите с помощью</string>
     <string name="login_with">Войти с Яндекс</string>
     <string name="enter_the_code">Введите код из E-mail</string>
     <string name="hint_code">Отправить код повторно можно будет через 59 секунд</string>
-
+    <string name="email">example@mail.ru</string>
     <string name="create_password">Создайте пароль</string>
     <string name="description_password">Для защиты ваших персональных данных</string>
     <string name="creating_patient_card">Создание карты пациента</string>
