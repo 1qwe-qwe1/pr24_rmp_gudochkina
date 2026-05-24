@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">pr24_rmp_gudochkina</string>
+    <string name="logo_name">Смартлаб</string>
+    <string name="analyzes">Анализы</string>
+    <string name="analyzes_info">Экспресс сбор и получение проб</string>
+    <string name="skip">Пропустить</string>
+    <string name="notifications">Уведомления</string>
+    <string name="notifications_info">Вы быстро узнаете о результатах</string>
+    <string name="monitoring">Мониторинг</string>
+    <string name="monitoring_info">Наши врачи всегда наблюдают\nза вашими показателями здоровья</string>
+    <string name="complete">Завершить</string>
+    <string name="hello_message">Добро пожаловать!</string>
+    <string name="hint">Войдите, чтобы пользоваться функциями приложения</string>
+    <string name="log_in_by_email">Вход по E-mail</string>
+    <string name="further">Далее</string>
+    <string name="log_in_using">Или войдите с помощью</string>
+    <string name="login_with">Войти с Яндекс</string>
+    <string name="enter_the_code">Введите код из E-mail</string>
+    <string name="hint_code">Отправить код повторно можно будет через 59 секунд</string>
+
+    <string name="create_password">Создайте пароль</string>
+    <string name="description_password">Для защиты ваших персональных данных</string>
+    <string name="creating_patient_card">Создание карты пациента</string>
+    <string name="description_patient_card_1">Без карты пациента вы не сможете заказать анализы.</string>
+    <string name="description_patient_card_2">В картах пациентов будут храниться результаты анализов вас и ваших близких.</string>
+    <string name="name">Имя</string>
+    <string name="patronymic">Отчество</string>
+    <string name="surname">Фамилия</string>
+    <string name="date_of_birth">Дата рождения</string>
+    <string name="gender">Пол</string>
+    <string name="create">Создать</string>
+    <string name="female">Женский</string>
+    <string name="male">Мужской</string>
+    <string name="num_1">1</string>
+    <string name="num_2">2</string>
+    <string name="num_3">3</string>
+    <string name="num_4">4</string>
+    <string name="num_5">5</string>
+    <string name="num_6">6</string>
+    <string name="num_7">7</string>
+    <string name="num_8">8</string>
+    <string name="num_9">9</string>
+    <string name="num_0">0</string>
+</resources>
