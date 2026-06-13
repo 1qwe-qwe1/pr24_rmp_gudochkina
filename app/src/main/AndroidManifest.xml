@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Pr24_rmp_gudochkina">
         <activity
+            android:name=".CreatingPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CodeConfirmationActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity

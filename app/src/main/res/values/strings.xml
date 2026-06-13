@@ -41,4 +41,6 @@
     <string name="num_8">8</string>
     <string name="num_9">9</string>
     <string name="num_0">0</string>
+    <string name="back">⌫</string>
+    <string name="field">Поле ввода кода</string>
 </resources>

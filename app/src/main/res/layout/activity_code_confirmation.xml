@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CodeConfirmationActivity">
+
+
+    <TextView
+        android:id="@+id/tvAnalyzes3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="244dp"
+        android:text="@string/hello_message"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/codeDigit4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="47dp"
+        android:background="@drawable/code_box_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:textIsSelectable="false"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:hint="@string/field"
+        android:autofillHints="postalCode"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/codeDigit3"
+        app:layout_constraintTop_toBottomOf="@+id/tvAnalyzes3" />
+
+    <EditText
+        android:id="@+id/codeDigit1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/code_box_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:textIsSelectable="false"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:hint="@string/field"
+        android:autofillHints="postalCode"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAnalyzes3" />
+
+    <EditText
+        android:id="@+id/codeDigit2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/code_box_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:textIsSelectable="false"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:hint="@string/field"
+        android:autofillHints="postalCode"
+        app:layout_constraintStart_toEndOf="@+id/codeDigit1"
+        app:layout_constraintTop_toBottomOf="@+id/tvAnalyzes3" />
+
+    <EditText
+        android:id="@+id/codeDigit3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/code_box_background"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:textIsSelectable="false"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:hint="@string/field"
+        android:autofillHints="postalCode"
+        app:layout_constraintStart_toEndOf="@+id/codeDigit2"
+        app:layout_constraintTop_toBottomOf="@+id/tvAnalyzes3" />
+
+    <View
+        android:id="@+id/keyboardBackground"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#F5F5F5"
+        app:layout_constraintTop_toTopOf="@id/keyboardContainer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/keyboardContainer"
+        android:layout_width="417dp"
+        android:layout_height="330dp"
+
+        android:background="@color/gray2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="125dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/keyboard_button_background"
+            android:text="@string/num_1"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:backgroundTint="@null"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="125dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/keyboard_button_background"
+            android:text="@string/num_2"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:backgroundTint="@null"
+            app:layout_constraintStart_toEndOf="@+id/btn1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="125dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/keyboard_button_background"
+            android:text="@string/num_3"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Ряд 3: 7, 8, 9 -->
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="125dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/keyboard_button_background"
+            android:text="@string/num_4"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:backgroundTint="@null"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn1" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="125dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/keyboard_button_background"
+            android:text="@string/num_5"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:backgroundTint="@null"
+            app:layout_constraintStart_toEndOf="@+id/btn4"
+            app:layout_constraintTop_toBottomOf="@+id/btn2" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="125dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/keyboard_button_background"
+            android:text="@string/num_6"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn5"
+            app:layout_constraintTop_toBottomOf="@+id/btn3" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="125dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/keyboard_button_background"
+            android:text="@string/num_7"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:backgroundTint="@null"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn4" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="125dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/keyboard_button_background"
+            android:text="@string/num_8"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:backgroundTint="@null"
+            app:layout_constraintStart_toEndOf="@+id/btn7"
+            app:layout_constraintTop_toBottomOf="@+id/btn5" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="125dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/keyboard_button_background"
+            android:text="@string/num_9"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn8"
+            app:layout_constraintTop_toBottomOf="@+id/btn6" />
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="125dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="146dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/keyboard_button_background"
+            android:text="@string/num_0"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:backgroundTint="@null"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn8" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="125dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="7dp"
+            android:background=""
+            android:text="@string/back"
+
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toEndOf="@+id/btn0"
+            app:layout_constraintTop_toBottomOf="@+id/btn9" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
