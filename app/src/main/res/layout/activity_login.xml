@@ -81,7 +81,7 @@
         android:text="@string/further"
         android:textColor="@color/white"
         android:textSize="20sp"
-        app:backgroundTint="@color/bright_blue"
+        app:backgroundTint="@color/light_blue"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toTopOf="@+id/tvInfo4"
         app:layout_constraintStart_toStartOf="parent" />
