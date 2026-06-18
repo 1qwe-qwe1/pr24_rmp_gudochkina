@@ -9,7 +9,7 @@
 
 
     <TextView
-        android:id="@+id/tvAnalyzes3"
+        android:id="@+id/tvEnterCode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
@@ -45,7 +45,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/codeDigit3"
-        app:layout_constraintTop_toBottomOf="@+id/tvAnalyzes3" />
+        app:layout_constraintTop_toBottomOf="@+id/tvEnterCode" />
 
     <EditText
         android:id="@+id/codeDigit1"
@@ -70,7 +70,7 @@
         android:autofillHints="postalCode"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvAnalyzes3" />
+        app:layout_constraintTop_toBottomOf="@+id/tvEnterCode" />
 
     <EditText
         android:id="@+id/codeDigit2"
@@ -94,7 +94,7 @@
         android:hint="@string/field"
         android:autofillHints="postalCode"
         app:layout_constraintStart_toEndOf="@+id/codeDigit1"
-        app:layout_constraintTop_toBottomOf="@+id/tvAnalyzes3" />
+        app:layout_constraintTop_toBottomOf="@+id/tvEnterCode" />
 
     <EditText
         android:id="@+id/codeDigit3"
@@ -118,7 +118,7 @@
         android:hint="@string/field"
         android:autofillHints="postalCode"
         app:layout_constraintStart_toEndOf="@+id/codeDigit2"
-        app:layout_constraintTop_toBottomOf="@+id/tvAnalyzes3" />
+        app:layout_constraintTop_toBottomOf="@+id/tvEnterCode" />
 
     <View
         android:id="@+id/keyboardBackground"
@@ -185,7 +185,6 @@
             app:layout_constraintStart_toEndOf="@+id/btn2"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <!-- Ряд 3: 7, 8, 9 -->
 
         <Button
             android:id="@+id/btn4"
@@ -295,9 +294,8 @@
             android:layout_height="52dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="7dp"
-            android:background=""
+            android:background="@android:color/transparent"
             android:text="@string/back"
-
             android:textColor="@color/black"
             android:textSize="24sp"
             app:layout_constraintHorizontal_weight="1"

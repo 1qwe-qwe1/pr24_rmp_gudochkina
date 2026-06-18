@@ -8,7 +8,7 @@
     tools:context=".LoginActivity">
 
     <TextView
-        android:id="@+id/tvInfo4"
+        android:id="@+id/tvLogUsingInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="112dp"
@@ -17,11 +17,11 @@
         android:text="@string/log_in_using"
         android:textColor="@color/grey"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogUsing"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/etEmail"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -32,11 +32,11 @@
         android:inputType="textEmailAddress"
         android:padding="14dp"
         android:textColorHint="@color/grey"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btnFurther"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/tvAnalyzes2"
+        android:id="@+id/tvHelloMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="66dp"
@@ -48,7 +48,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tvInfo3"
+        android:id="@+id/tvLogEmailInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -57,11 +57,11 @@
         android:text="@string/log_in_by_email"
         android:textColor="@color/grey"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/etEmail"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/tvInfo2"
+        android:id="@+id/tvHelloMessageInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -70,10 +70,10 @@
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvAnalyzes2" />
+        app:layout_constraintTop_toBottomOf="@+id/tvHelloMessage" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/button"
+        android:id="@+id/btnFurther"
         android:layout_width="354dp"
         android:layout_height="60dp"
         android:layout_marginStart="30dp"
@@ -83,11 +83,11 @@
         android:textSize="20sp"
         app:backgroundTint="@color/light_blue"
         app:cornerRadius="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/tvInfo4"
+        app:layout_constraintBottom_toTopOf="@+id/tvLogUsingInfo"
         app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/button2"
+        android:id="@+id/btnLogUsing"
         android:layout_width="354dp"
         android:layout_height="57dp"
         android:layout_marginStart="30dp"

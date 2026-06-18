@@ -8,7 +8,7 @@
     tools:context=".CreatingCardActivity">
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/button3"
+        android:id="@+id/btnCreate"
         android:layout_width="354dp"
         android:layout_height="60dp"
         android:layout_marginStart="30dp"
@@ -24,7 +24,7 @@
         app:layout_constraintTop_toBottomOf="@+id/spinnerGender" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress2"
+        android:id="@+id/etName"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -38,10 +38,10 @@
         android:textColorHint="@color/grey"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvAnalyzes8" />
+        app:layout_constraintTop_toBottomOf="@+id/tvDescriptionCard2" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress3"
+        android:id="@+id/etSurname"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -55,10 +55,10 @@
         android:textColorHint="@color/grey"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress6" />
+        app:layout_constraintTop_toBottomOf="@+id/etPatronymic" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress6"
+        android:id="@+id/etPatronymic"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -72,10 +72,10 @@
         android:textColorHint="@color/grey"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
+        app:layout_constraintTop_toBottomOf="@+id/etName" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress4"
+        android:id="@+id/etDateOfBirth"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -89,7 +89,7 @@
         android:textColorHint="@color/grey"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress3" />
+        app:layout_constraintTop_toBottomOf="@+id/etSurname" />
 
     <Spinner
         android:id="@+id/spinnerGender"
@@ -103,10 +103,10 @@
         android:spinnerMode="dropdown"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress4" />
+        app:layout_constraintTop_toBottomOf="@+id/etDateOfBirth" />
 
     <TextView
-        android:id="@+id/tvAnalyzes7"
+        android:id="@+id/tvDescriptionCard1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -115,10 +115,10 @@
         android:textColor="@color/grey"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvAnalyzes6" />
+        app:layout_constraintTop_toBottomOf="@+id/tvCard" />
 
     <TextView
-        android:id="@+id/tvAnalyzes8"
+        android:id="@+id/tvDescriptionCard2"
         android:layout_width="383dp"
         android:layout_height="42dp"
         android:layout_marginStart="8dp"
@@ -127,10 +127,10 @@
         android:textColor="@color/grey"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvAnalyzes7" />
+        app:layout_constraintTop_toBottomOf="@+id/tvDescriptionCard1" />
 
     <TextView
-        android:id="@+id/tvAnalyzes6"
+        android:id="@+id/tvCard"
         android:layout_width="236dp"
         android:layout_height="113dp"
         android:layout_marginStart="8dp"
@@ -143,7 +143,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/buttonSkip3"
+        android:id="@+id/buttonSkip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"

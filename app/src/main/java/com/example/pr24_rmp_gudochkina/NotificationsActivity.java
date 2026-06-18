@@ -1,6 +1,8 @@
 package com.example.pr24_rmp_gudochkina;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,6 +21,13 @@ public class NotificationsActivity extends AppCompatActivity {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+        });
+
+        TextView btnSkip = findViewById(R.id.btnSkip);
+
+        btnSkip.setOnClickListener(v -> {
+            Intent intent = new Intent(NotificationsActivity.this, MonitoringActivity.class);
+            startActivity(intent);
         });
     }
 }

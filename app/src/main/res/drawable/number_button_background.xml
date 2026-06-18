@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Нажатое состояние — синий -->
     <item android:state_pressed="true">
         <shape android:shape="oval">
             <solid android:color="@color/blue" />
         </shape>
     </item>
 
-    <!-- Обычное состояние — серый -->
     <item>
         <shape android:shape="oval">
             <solid android:color="@color/gray3" />
