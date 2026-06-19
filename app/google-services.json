@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "395380307791",
+    "firebase_url": "https://pr25-rpm-default-rtdb.firebaseio.com",
+    "project_id": "pr25-rpm",
+    "storage_bucket": "pr25-rpm.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395380307791:android:c36e4736de78e3b2af373a",
+        "android_client_info": {
+          "package_name": "com.example.pr24_rmp_gudochkina"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3atYaMmneXgaAE6VSM-8FhGDwY-Nj7ZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

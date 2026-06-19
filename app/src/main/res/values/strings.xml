@@ -43,4 +43,18 @@
     <string name="num_0">0</string>
     <string name="back">⌫</string>
     <string name="field">Поле ввода кода</string>
+
+    <string name="search_analyses">Искать анализы</string>
+    <string name="promotions_news">Акции и новости</string>
+    <string name="catalog_of_analyses">Каталог анализов</string>
+    <string name="popular_ones">Популярные</string>
+    <string name="covid">Covid</string>
+    <string name="comprehensive">Комплексные</string>
+
+    <string name="add">Добавить</string>
+
+    <string name="results">Результаты</string>
+    <string name="support">Поддержка</string>
+    <string name="profile">Профиль</string>
+
 </resources>

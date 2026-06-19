@@ -1,5 +1,6 @@
 package com.example.pr24_rmp_gudochkina;
 
+import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.os.Bundle;
 import android.text.Editable;
@@ -18,6 +19,7 @@ import androidx.core.content.ContextCompat;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
 
 import com.google.android.material.button.MaterialButton;
 
@@ -70,14 +72,17 @@ public class CreatingCardActivity extends AppCompatActivity {
 
         btnCreate.setOnClickListener(v -> {
             if (btnCreate.isEnabled()) {
-                Toast.makeText(this, "Карта пациента создана!", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(CreatingCardActivity.this, AnalysisMainActivity.class);
+                startActivity(intent);
             }
         });
 
         TextView buttonSkip = findViewById(R.id.buttonSkip);
         buttonSkip.setOnClickListener(v -> {
-            Toast.makeText(this, "Создание карты пропущено", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(CreatingCardActivity.this, AnalysisMainActivity.class);
+            startActivity(intent);
         });
+
     }
 
     private void setupGenderSpinner() {

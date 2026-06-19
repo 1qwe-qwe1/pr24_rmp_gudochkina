@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Pr24_rmp_gudochkina">
         <activity
+            android:name=".AnalysisMainActivity"
+            android:exported="false" />
+        <activity
             android:name=".CreatingCardActivity"
             android:exported="false" />
         <activity
